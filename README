@@ -1,0 +1,4 @@
+A simple Amiga floppy bootloader that fits in the boot block.
+
+The idea is to start keep the loader resident in the bootblock and then load
+swap parts in and out by offering them a data loading interface.
